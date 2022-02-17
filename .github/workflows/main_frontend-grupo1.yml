@@ -53,4 +53,4 @@ jobs:
           app-name: 'frontend-grupo1'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_596495A4FE5F4B8C99A23FED6208E818 }}
-          package: .
+          package: 'build'
